@@ -33,7 +33,7 @@ public class CalcController extends HttpServlet {
 			// TODO: result = Integer.parseInt(oper1) * Integer.parseInt(oper2);
 			break;
 		case "/":
-			// TODO: result = Integer.parseInt(oper1) / Integer.parseInt(oper2);
+			result = Integer.parseInt(oper1) / Integer.parseInt(oper2);
 			break;
 		}		
 		request.setAttribute("result", result);
